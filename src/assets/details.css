@@ -1,0 +1,78 @@
+.details {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .details h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .details p {
+    margin: 10px 0 0 0;
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .details form {
+    margin-top: 20px;
+  }
+  
+  .details label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .details input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .details input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .button{
+    background-color: #2f8f85;
+    color: white;
+    border: none;
+  }
+  
+  @media (min-width: 768px) {
+   .details {
+      max-width: 800px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+   .details {
+      max-width: 1000px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+   .details {
+      max-width: 1200px;
+    }
+  }

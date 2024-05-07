@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: solid black 0.02rem;
+    margin: auto 1rem;
+    color: white;
+    background-color:#2f8f85;
+    height: 100%;
+    max-height: 15rem;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .hero h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  
+  a{
+    text-decoration: none;
+    color: White
+  }
+  @media (min-width: 768px) {
+    .hero {
+      max-width: 400px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .hero {
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .hero {
+      max-width: 600px;
+    }
+  }

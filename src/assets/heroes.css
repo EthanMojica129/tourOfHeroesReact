@@ -1,0 +1,48 @@
+.hero-box {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-box h3 {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .hero-box p {
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    color: #666;
+  }
+
+  button{
+    background-color: #2f8f85;
+    color: white;
+    border: none;
+  }
+  
+  @media (min-width: 768px) {
+   .hero-box {
+      max-width: 400px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+   .hero-box {
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+   .hero-box {
+      max-width: 600px;
+    }
+  }
